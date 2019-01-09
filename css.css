@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2019, 4:51:30 PM
+    Author     : chrisjuste
+*/
+body{
+    background-image: url("https://i.imgur.com/tgdVhup.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 120px;
+    
+}
+.icons{
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.icons:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.bg-dark{
+    opacity: 0.8;
+}
+.navbar-brand{
+    font-family: 'Alex Brush', cursive;
+    font-size: 200%;
+}
+.carousel_img{
+    width: auto; 
+    height: 480px;
+    border-radius: 10px;
+}
+.container{
+    max-width: 610px;
+    margin: auto;
+}
+.myCar_title{
+    font-family: 'Alex Brush', cursive;
+    font-size: 200%;
+}
+.myCar_text{
+    font-family: 'Charm', cursive;
+}
