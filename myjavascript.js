@@ -9,6 +9,9 @@ function evanesco(){
     $( "li" ).hover(function() {
         $(this).fadeOut(1,null);
     });
+    $( "button" ).hover(function() {
+        $(this).fadeOut(1,null);
+    });
     $( "img" ).hover(function() {
         $(this).fadeOut(1,null);
     });
