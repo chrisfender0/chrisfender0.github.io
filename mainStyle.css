@@ -1,0 +1,175 @@
+/*
+    main page content 
+*/
+html, body{
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+}
+.bg {
+    background-color: black;
+    height:100%;
+    background: url("Images/Background_Pic.jpg");
+    background-size: 200%;
+    background-position-x: -200px;
+}
+/*
+    top 
+*/
+header{
+    font-size: 150%;
+}
+.Wrapper{
+    height: 95%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#h1header {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    background-color: rgba(0, 131, 5, 0.6);
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+/*
+    navbar 
+*/
+.navbar{
+    background-color: #1B4712;
+    border-radius: 6px;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.navLinks{
+    color: white;
+    float: left;
+}
+.navLinks:hover{
+    color: #1D4712;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+.navList{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+.navList:hover{
+    background-color: #007d09;
+}
+/*
+    main divs 
+*/
+.column {
+    float: left;
+    width: 31%;
+    border-radius: 6px;
+}
+.row {
+    padding-top: 10px;
+    margin: 0 -5px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    margin-left: 40px;
+}
+#leftCard{
+    background-color: rgba(0, 131, 5, 0.6);
+    color: white;
+}
+#centerCard{
+    background-color: rgba(66, 124, 189, 0.6);
+    color: white; 
+}
+#rightCard{
+    background-color: rgba(0, 74, 10, 0.6);
+    color: white;
+}
+#CardList{
+    padding-top: 8px;
+}
+.CardList{
+    padding: 2px;
+}
+#topPark{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 120%;
+    text-shadow: 0px 2px 8px black;
+}
+.cardLinks{
+    color: white;
+}
+.cardLinks:hover{
+    padding: 4px;
+    background-color: rgba(0,0,0,0.35);
+    border-radius: 6px;
+    color: #1D4712;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+/*
+    footer 
+*/
+footer{
+    background-color: rgba(0,0,0,0.35);
+    height: 36px;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+#footerDiv{
+    padding-top: 10px;
+    color: white;
+}
+
+/*
+    Media
+*/
+@media screen and (max-width: 700px) {
+    .card{
+        margin-left: 0;
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    #leftCard{
+        background-color: rgba(0, 131, 5, 0.6);
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #centerCard{
+        background-color: rgba(66, 124, 189, 0.6);
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #rightCard{
+        background-color: rgba(0, 74, 10, 0.6);
+        color: white;
+        margin-left: 10px; 
+        margin-right: 10px;
+    }
+}
