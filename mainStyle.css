@@ -19,7 +19,7 @@ header{
     font-size: 150%;
 }
 .Wrapper{
-    height: 95%;
+    min-height: 95vh;
     margin-left: 2em;
     margin-right: 2em;
 }
