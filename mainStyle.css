@@ -48,6 +48,7 @@ header{
 .navLinks{
     color: white;
     float: left;
+    padding: 14px 16px;
 }
 .navLinks:hover{
     color: #1D4712;
@@ -56,16 +57,14 @@ header{
     1px -1px 0 white,
     -1px 1px 0 white,
     1px 1px 0 white;
+    background-color: #007d09;
+    border-radius: 6px;
 }
 .navList{
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
-}
-.navList:hover{
-    background-color: #007d09;
 }
 /*
     main divs 

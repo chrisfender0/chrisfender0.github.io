@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Parks List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="mainStyle.css">
+        <link rel="stylesheet" href="ParksList.css">
+        
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+        
+        <!-- JavaScript links -->
+        <script src="ParksList.js"></script>
+    </head>
+    <body>
+        <div class="bg">
+        <div class="Wrapper">
+            <header>
+                <div class="Container">
+                    <h1 id="h1header">
+                        Tacoma Parks
+                    </h1>
+                    <div class='navbar'>
+                        <ul class="nav">
+                            <li class="navList"><a class="navLinks" href="TacomaParks.html">Home</a></li>
+                            <li class="navList"><a class="navLinks" id="navSelected" href="#top">Park List</a></li>
+                            <li class="navList"><a class="navLinks" href="#">Map</a></li>
+                            <li class="navList"><a class="navLinks" href="#">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            
+            <main>
+                <div class="Container" id="mainContainer">
+                    <div id="leftDiv">
+                        <ul>
+                            <li class="leftDivList">Wapato</li>
+                            <li class="leftDivList">Oak Tree Park</li>
+                            <li class="leftDivList">South Park</li>
+                        </ul>
+                    </div>
+                    <div id="rightDiv">
+                        <div id="info">
+                            
+                        </div>
+                        <div id="map">
+                            
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+            <footer>
+                <div class="Container" id='footerDiv'>
+                    <span>2019 Oxygen Junkies</span>
+                </div>
+            </footer>
+        </div> 
+        
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRnULqVwlTvJ3tlWbDAOJbCZBj95fAWQI&callback=initMap">
+        </script>
+        
+    </body>   
+</html>
