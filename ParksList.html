@@ -20,6 +20,7 @@ and open the template in the editor.
         
         <!-- JavaScript links -->
         <script src="ParksList.js"></script>
+        <script src="TacomaParks.js"></script>
     </head>
     <body>
         <div class="bg">
@@ -33,8 +34,7 @@ and open the template in the editor.
                         <ul class="nav">
                             <li class="navList"><a class="navLinks" href="TacomaParks.html">Home</a></li>
                             <li class="navList"><a class="navLinks" id="navSelected" href="#top">Park List</a></li>
-                            <li class="navList"><a class="navLinks" href="#">Map</a></li>
-                            <li class="navList"><a class="navLinks" href="#">Help</a></li>
+                            <li class="navList"><a class="navLinks" href="#" onclick="help()">Help</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,14 +44,15 @@ and open the template in the editor.
                 <div class="Container" id="mainContainer">
                     <div id="leftDiv">
                         <ul>
-                            <li class="leftDivList">Wapato</li>
-                            <li class="leftDivList">Oak Tree Park</li>
-                            <li class="leftDivList">South Park</li>
+                            <li class="leftDivList"><button class="LeftDivListButton" id="buttonWapato" onclick="wapatoClick()">Wapato</button></li>
+                            <li class="leftDivList"><button class="LeftDivListButton" id="buttonOakTreePark" onclick="oakTreeParkClick()">Oak Tree Park</button></li>
+                            <li class="leftDivList"><button class="LeftDivListButton" id="buttonSouthPark" onclick="southParkClick()">South Park</button></li>
                         </ul>
                     </div>
                     <div id="rightDiv">
                         <div id="info">
-                            
+                            <p id="parkInfo">Click on the parks to the left to get information and a mapped spot</p>
+                            <p id="footnote"></p>
                         </div>
                         <div id="map">
                             
