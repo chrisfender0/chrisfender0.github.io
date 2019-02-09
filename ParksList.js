@@ -11,6 +11,10 @@ function wapatoClick(){
     //set text 
     document.getElementById("parkInfo").innerHTML = "Wapato Park lies in a beautiful setting of lake and forest. Features include a walking trail around the lake (.9 miles), a playground, a dog park, picnic shelters, and an impressive, historic pergola.";
     document.getElementById("footnote").innerHTML = "Description provided by MetroParks";
+    //set image visible
+    document.getElementById("innerPicLeft").src = "https://i.imgur.com/Weke3wl.jpg";
+    document.getElementById("innerPicRight").src = "https://i.imgur.com/DvdLFeZ.jpg";
+    document.getElementById("innerPics").style.visibility = "visible";
     //draw map 
     initMap(); 
 }
@@ -27,6 +31,10 @@ function oakTreeParkClick(){
     //set text
     document.getElementById("parkInfo").innerHTML = "Oak Tree Park is a 25 acre parcel that comprises one of the last remnants of the Garry oak habitat that used to dominate this part of the city.";
     document.getElementById("footnote").innerHTML = "Description provided by MetroParks";
+    //set image visible
+    document.getElementById("innerPicLeft").src = "https://i.imgur.com/Sv5hGJw.jpg";
+    document.getElementById("innerPicRight").src = "https://i.imgur.com/VYk67QC.jpg";
+    document.getElementById("innerPics").style.visibility = "visible";
     //draw map 
     initMap();    
 }
@@ -43,6 +51,10 @@ function southParkClick(){
     //set text 
     document.getElementById("parkInfo").innerHTML = "This forested park serves south Tacoma and features gardens, play equipment, and a sprayground.";
     document.getElementById("footnote").innerHTML = "Description provided by MetroParks";
+    //set image visible
+    document.getElementById("innerPicLeft").src = "https://i.imgur.com/f5URHl8.jpg";
+    document.getElementById("innerPicRight").src = "https://i.imgur.com/hEdjLQP.jpg";
+    document.getElementById("innerPics").style.visibility = "visible";
     //draw map 
     initMap();
 }

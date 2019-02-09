@@ -15,6 +15,7 @@
     padding: 6px;
 }
 #rightDiv{
+    display: inline-block;
     float: left;
     width: 60%;
     height: 60%;
@@ -30,8 +31,7 @@
     height: 100%;
 }
 #map{
-    height: 300px; 
-    width: 98.5%;
+    height: 200px; 
     margin: 5px;
 }
 .LeftDivListButton{
@@ -51,4 +51,22 @@
 #footnote{
     font-size: 50%;
 }
-
+#innerPics{
+    padding: 2px;
+    text-align: center;
+    visibility: hidden;
+}
+#innerPicLeft{
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    margin-right: 30px;
+    object-fit: cover;
+}
+#innerPicRight{
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    margin-left: 30px;
+    object-fit: cover;
+}
