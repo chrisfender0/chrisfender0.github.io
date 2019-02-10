@@ -91,15 +91,15 @@ header{
     margin-left: 40px;
 }
 #leftCard{
-    background-color: rgba(0, 131, 5, 0.6);
+    background-color: rgba(35, 80, 17, 0.8);
     color: white;
 }
 #centerCard{
-    background-color: rgba(66, 124, 189, 0.6);
+    background-color: rgba(40, 67, 98, 0.8);
     color: white; 
 }
 #rightCard{
-    background-color: rgba(0, 74, 10, 0.6);
+    background-color: rgba(35, 80, 17, 0.8);
     color: white;
 }
 #CardList{
